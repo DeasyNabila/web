@@ -37,7 +37,7 @@
                 $_SESSION['timeout'] = time()+1800;
                 $_SESSION['login_at'] = date('h:m:s a');
                 sleep(1);
-                header('location:index.php');
+                header('location:indexweb.php');
             }else{
                 $_SESSION['error'] = 'Wrong captcha';
             }
